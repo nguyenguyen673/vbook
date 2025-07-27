@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Google Gemini Translate",
+    "author": "369",
+    "version": 4,
+    "source": "https://generativelanguage.googleapis.com",
+    "description": "Dịch văn bản bằng Google Gemini API (Hardcoded Key).",
+    "type": "translate"
+  },
+  "script": {
+    "language": "language.js",
+    "translate": "translate.js"
+  },
+  "config": {
+    "support_auto_detect": true,
+    "max_length": 5000,
+    "required_api_key": "false",
+    "support_url": "https://aistudio.google.com/app/apikey"
+  }
+}
